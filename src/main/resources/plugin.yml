@@ -1,0 +1,11 @@
+name: Equipper
+main: com.plugkin.equipper.Equipper
+version: 0.1
+author: Zivci
+
+commands:
+   equip:
+      description: This command equips entity with given armour item.
+      usage: /<command> [player]
+      permission: equipper.use
+      permission-message: "§4Error: No permission."
